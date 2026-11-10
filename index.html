@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Feira Cultural do Ensino Fundamental I — uma viagem por museus, arte, história, tecnologia e música.">
+  <title>Museus em Movimento | Feira Cultural Davina</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Fredoka:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#inicio" aria-label="Museus em Movimento, início">
+      <span class="brand-icon">🏛️</span>
+      <span><strong>MUSEUS EM MOVIMENTO</strong><small>Feira Cultural • Fundamental I</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#sobre">A feira</a><a href="#estacoes">Estações</a><a href="#idiomas">Idiomas</a>
+      <a href="#som">Imagem e som</a><a href="#visite">Como visitar</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-shapes shape-one"></div><div class="hero-shapes shape-two"></div>
+      <div class="hero-content">
+        <span class="eyebrow">🎨 COLÉGIO DAVINA GASPARINI • FUNDAMENTAL I</span>
+        <h1>Uma viagem por<br><em>mundos e museus!</em></h1>
+        <p>História, arte, descobertas, criatividade e tecnologia em uma exposição construída pelas crianças do 2º ao 5º ano.</p>
+        <a class="primary-button" href="#estacoes">Explore as estações <span>↓</span></a>
+      </div>
+      <div class="hero-art" aria-label="Ilustração de museu com quadros coloridos">
+        <div class="sun"></div><div class="museum-building"><div class="roof"></div><div class="columns"><i></i><i></i><i></i><i></i></div><div class="museum-door"></div></div>
+        <span class="floating f1">🖼️</span><span class="floating f2">🎭</span><span class="floating f3">💡</span>
+      </div>
+      <div class="hero-bottom">CURIOSIDADE • IMAGINAÇÃO • APRENDIZAGEM</div>
+    </section>
+
+    <section class="intro section-wrap" id="sobre">
+      <div class="section-heading"><span class="kicker">BEM-VINDOS!</span><h2>O conhecimento também mora em um museu.</h2></div>
+      <p class="intro-copy">Cada sala revela um jeito diferente de observar o mundo. Ao longo da feira, nossos estudantes apresentam pesquisas, experiências, maquetes, obras de arte e produções digitais. Prepare-se para aprender, brincar e descobrir!</p>
+      <div class="stats">
+        <div><strong>4</strong><span>anos participantes</span></div><div><strong>🏛️</strong><span>muitas descobertas</span></div><div><strong>✨</strong><span>ideias que ganham vida</span></div>
+      </div>
+    </section>
+
+    <section class="stations section-wrap" id="estacoes">
+      <div class="section-heading centered"><span class="kicker">ROTEIRO DA EXPOSIÇÃO</span><h2>Escolha uma estação para explorar</h2><p>Conheça os projetos de cada turma e os espaços da nossa feira.</p></div>
+      <div class="filter-row" role="group" aria-label="Filtrar estações">
+        <button class="filter-btn active" data-filter="todos">Todas</button>
+        <button class="filter-btn" data-filter="2">2º ano</button>
+        <button class="filter-btn" data-filter="3">3º ano</button>
+        <button class="filter-btn" data-filter="4">4º ano</button>
+        <button class="filter-btn" data-filter="5">5º ano</button>
+        <button class="filter-btn" data-filter="tecnologia">Tecnologia e som</button>
+      </div>
+
+      <div class="station-grid">
+        <article class="station-card card-yellow" data-grade="2">
+          <div class="card-top"><span class="grade">2º ANO</span><span class="card-emoji">🇧🇷</span></div>
+          <p class="room">1º andar • Sala do 3º e 4º anos</p><h3>Do Museu à Tela</h3><h4>Cores, formas e emoções</h4>
+          <p>Uma viagem pela história do Brasil, do descobrimento à Independência, acompanhada por experiências artísticas.</p>
+          <ul><li>Linha do tempo da história do Brasil</li><li>Dobradura do Brasil no período do descobrimento</li><li>Exposição de profissões e maquete do Museu do Ipiranga</li><li>Arte: Kandinsky, Pollock, texturas e sombras</li></ul>
+          <button class="details-btn" data-station="2-ano">Ver detalhes <span>↗</span></button>
+        </article>
+
+        <article class="station-card card-green" data-grade="3">
+          <div class="card-top"><span class="grade">3º ANO</span><span class="card-emoji">🦴</span></div>
+          <p class="room">Pátio Vans</p><h3>Exploradores do Tempo</h3><h4>Arte, história e descobertas</h4>
+          <p>Uma expedição por diferentes modos de vida e civilizações que marcaram a história da humanidade.</p>
+          <ul><li>De nômades a sedentários: linha do tempo</li><li>Moldes de fósseis e paisagens rurais e urbanas</li><li>Língua e canção indígena com ficha técnica</li><li>Pirâmides e produção de arte indígena</li><li>Exposição de arte egípcia</li></ul>
+          <button class="details-btn" data-station="3-ano">Ver detalhes <span>↗</span></button>
+        </article>
+
+        <article class="station-card card-pink" data-grade="4">
+          <div class="card-top"><span class="grade">4º ANO</span><span class="card-emoji">🎨</span></div>
+          <p class="room">Quadra</p><h3>Entre Laços e Cores</h3><h4>Faces da história e da arte</h4>
+          <p>Os estudantes investigam artistas, retratos, cores e formas para criar suas próprias obras.</p>
+          <ul><li>Linhas do tempo de Van Gogh e Picasso</li><li>Mapas de museus que expõem suas obras</li><li>Retrato falado e autorretrato</li><li>Paisagens com cores quentes, frias, primárias e secundárias</li><li>Máscaras geométricas inspiradas em Picasso</li></ul>
+          <button class="details-btn" data-station="4-ano">Ver detalhes <span>↗</span></button>
+        </article>
+
+        <article class="station-card card-blue" data-grade="5">
+          <div class="card-top"><span class="grade">5º ANO</span><span class="card-emoji">🏙️</span></div>
+          <p class="room">Quadra</p><h3>Retratos da Cidade</h3><h4>Entre o passado e o presente</h4>
+          <p>Um olhar sobre a cidade de São Paulo, seus monumentos, arquitetura, simetria e identidade.</p>
+          <ul><li>Monumentos criados e esboçados pelos alunos</li><li>Monumentos de São Paulo: localização e informações</li><li>Linha do tempo de Oscar Niemeyer</li><li>Simetria, retratos e autorretratos</li><li>Planta baixa das casas e painel Pop Art</li></ul>
+          <button class="details-btn" data-station="5-ano">Ver detalhes <span>↗</span></button>
+        </article>
+
+        <article class="station-card card-purple" data-grade="tecnologia">
+          <div class="card-top"><span class="grade">2º ANDAR • SALA DE ESPORTES</span><span class="card-emoji">🎧</span></div>
+          <p class="room">Tecnologia + Música</p><h3>Museu Davina da Imagem e do Som</h3><h4>Ideias que podem ser vistas e ouvidas</h4>
+          <p>Um espaço que conecta letramento digital, música e experimentação tecnológica.</p>
+          <ul><li>2º ano: modelo de robótica</li><li>3º ano: arte digital</li><li>4º ano: modelo 3D</li><li>5º ano: audiovisual e modelo 3D</li><li>QR Codes com explicações, imagens e/ou áudio</li></ul>
+          <button class="details-btn" data-station="imagem-som">Ver detalhes <span>↗</span></button>
+        </article>
+
+        <article class="station-card card-orange" data-grade="3">
+          <div class="card-top"><span class="grade">3º ANO</span><span class="card-emoji">🥁</span></div>
+          <p class="room">2º andar • Sala de esportes</p><h3>Museu dos Sons</h3><h4>Instrumentos musicais indígenas</h4>
+          <p>Uma estação dedicada à construção, à escuta e à valorização dos instrumentos e das expressões musicais indígenas.</p>
+          <ul><li>Instrumentos musicais indígenas</li><li>Exploração de sons e ritmos</li><li>Integração entre arte, cultura e música</li></ul>
+          <p class="note">Organização: Fábio</p>
+        </article>
+
+        <article class="station-card card-red" data-grade="tecnologia">
+          <div class="card-top"><span class="grade">EDUCAÇÃO FÍSICA</span><span class="card-emoji">⚽</span></div>
+          <p class="room">Espaço a confirmar</p><h3>Museu do Futebol</h3><h4>Histórias que entram em campo</h4>
+          <p>Uma proposta para conhecer o futebol como manifestação cultural, memória, esporte e identidade.</p>
+          <p class="note">Responsável indicado: Ian • detalhes da exposição a confirmar.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="station-page section-wrap" id="stationPage" hidden aria-live="polite"></section>
+
+    <section class="language-section" id="idiomas">
+      <div class="section-wrap">
+        <div class="section-heading centered"><span class="kicker">MUSEUS PELO MUNDO</span><h2>Uma exposição que fala outras línguas</h2><p>História, literatura e cultura em diferentes idiomas.</p></div>
+        <div class="language-grid">
+          <article class="language-card"><span>🇬🇧</span><div><small>RENATA / JULIANA • SALA DO 2º ANO</small><h3>The English Language Museum</h3><p>A história da língua inglesa e sua ligação com o Brasil.</p></div></article>
+          <article class="language-card"><span>🇪🇸</span><div><small>TELMA • SALA DE ARTE / SALA DE ESPORTES</small><h3>Dom Quixote de la Mancha</h3><p>Uma viagem literária pelo universo de Dom Quixote. As contribuições específicas de cada turma podem ser acrescentadas à programação.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section-wrap" id="visite">
+      <div class="visit-copy"><span class="kicker">PREPARE SUA VISITA</span><h2>Olhe de perto.<br>Faça perguntas.<br>Descubra algo novo!</h2><p>Em cada estação, os alunos serão os guias de suas próprias descobertas. Reserve um tempinho para ouvir as explicações e conhecer os trabalhos.</p></div>
+      <div class="visit-tips"><div><b>👣</b><span><strong>Siga o roteiro</strong><small>Visite as salas e espaços indicados pela organização.</small></span></div><div><b>📱</b><span><strong>Aponte a câmera</strong><small>Leia os QR Codes para acessar conteúdos extras de cada estação.</small></span></div><div><b>💬</b><span><strong>Converse com os pequenos</strong><small>Pergunte como o trabalho foi criado e o que aprenderam.</small></span></div></div>
+    </section>
+
+    <section class="qr-section" id="som"><div class="section-wrap qr-inner"><div><span class="kicker">CONTEÚDO EXTRA</span><h2>Tem história que se lê.<br>E tem história que se escuta!</h2><p>Os QR Codes de cada estação poderão abrir explicações, imagens e áudios produzidos pelos estudantes.</p></div><div class="qr-illustration"><div class="qr-fake">▦<span>QR</span></div><span>📲</span><small>APONTE A CÂMERA</small></div></div></section>
+
+    <section class="closing section-wrap"><div class="closing-icon">🌟</div><h2>Todo grande museu começa com uma descoberta.</h2><p>Obrigado por fazer parte da nossa feira cultural!</p><span>FEIRA CULTURAL • FUNDAMENTAL I</span></section>
+  </main>
+
+  <footer><span>🏛️ Museus em Movimento</span><span>Colégio Davina Gasparini • Feira Cultural</span></footer>
+
+
+  <script src="js/script.js"></script>
+</body>
+</html>
