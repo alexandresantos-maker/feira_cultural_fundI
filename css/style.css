@@ -540,7 +540,7 @@ main {
   color: #827a91;
   font-size: .82rem
 }
-
+/* 
 @keyframes passar-galeria {
   from {
     transform: translateX(0)
@@ -549,7 +549,7 @@ main {
   to {
     transform: translateX(-50%)
   }
-}
+} */
 
 .galeria-vazia,
 .audio-vazio {
