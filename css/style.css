@@ -26,9 +26,10 @@ html {
 
 body {
   margin: 0;
-  background: var(--cream);
   color: var(--ink);
-  font: 16px/1.75 'Nunito', sans-serif
+  font: 16px/1.75 'Nunito', sans-serif;
+  background: #22C1C3;
+  background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(196, 255, 241, 1) 24%, rgba(255, 222, 251, 1) 50%, rgba(255, 231, 153, 1) 77%, rgba(255, 234, 0, 1) 99%);
 }
 
 a {
